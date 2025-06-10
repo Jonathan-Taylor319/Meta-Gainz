@@ -1,0 +1,18 @@
+# === PYTHON / DJANGO ===
+backend/venv/
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.env
+backend/media/
+
+# === NODE / REACT ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# === OS / EDITOR ===
+.DS_Store
+*.swp
+*.swo
