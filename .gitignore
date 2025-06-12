@@ -1,18 +1,31 @@
 # === PYTHON / DJANGO ===
-backend/venv/
+venv/
 __pycache__/
 *.py[cod]
 *.sqlite3
 *.log
 *.env
-backend/media/
+*.pot
+*.pyc
+*.pyo
+*.pyd
+media/
+db.sqlite3
+.env.*
 
-# === NODE / REACT ===
+# === Django Migrations ===
+**/migrations/*.py
+!**/migrations/__init__.py
+
+# === NODE / REACT (Vite) ===
 frontend/node_modules/
 frontend/dist/
 frontend/.env
+frontend/.vite/
 
 # === OS / EDITOR ===
 .DS_Store
 *.swp
 *.swo
+.idea/
+.vscode/
