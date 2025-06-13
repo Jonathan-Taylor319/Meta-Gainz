@@ -7,4 +7,4 @@ class Profile(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     profile_picture = models.ImageField(upload_to='profile_pics/')
     total_weight_lifted = models.IntegerField()
-    personal_tagline = models.TextField(max_length=400)
+    personal_tagline = models.TextField(max_length=160)
